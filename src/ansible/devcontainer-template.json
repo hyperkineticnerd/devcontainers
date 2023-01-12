@@ -1,0 +1,21 @@
+{
+    "id": "ansible",
+    "version": "1.0.0",
+    "name": "Ansible",
+    "description": "A DevContainer for Ansible",
+    "documentationURL": "https://github.com/hyperkineticnerd/devcontainers/tree/main/src/ansible",
+    "licenseURL": "https://github.com/hyperkineticnerd/devcontainers/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Debian version (use bullseye on local arm64/Apple Silicon):",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
